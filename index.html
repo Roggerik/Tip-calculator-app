@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style-tablet.css" media="(min-width:675px) and (max-width:900px)">
+  <link rel="stylesheet" href="style-desktop" media="(min-width:901px)">
+  <title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+<body>
+  <div class="container">
+    <div class="container__title">
+      <h1 class="title">SPLI <br>TTER</h1>
+    </div>
+    <main class="main__container">
+      <section class="datosCalcular">
+        <h2 class="nombre">Bill</h2>
+        <label for="montoTotal" id="montoTotal" class="label montoTotal">
+          <span>$</span>
+          <input class="input montoTotal-input" type="text" placeholder="0">
+        </label>
+        <div class="container__tip">
+          <h2>Select Tip %</h2>
+          <div class="tip__buttons">
+            <button class="button active" value="5">5%</button>
+            <button class="button" value="10">10%</button>
+            <button class="button" value="15">15%</button>
+            <button class="button" value="25">25%</button>
+            <button class="button" value="50">50%</button>
+            <input type="text" class="custom" placeholder="Custom"> 
+
+          </div>
+        </div>
+        <div class="container__person">
+          <h2>Number of People</h2>
+          <label class=" label numberPerson" for="numberPerson">
+            <input class="input" id="numberPerson" type="text" placeholder="0">
+          </label>
+        </div>
+      </section>
+
+      <section class="total">
+        <div class="datos__group">
+          <div class="datos">
+            <h2>Tip Amount</h2>
+            <span>/ person</span>
+          </div>
+          <span class="simbolo">$</span><p class="totalUni">0.00</p>
+        </div>
+
+        <div class="datos__group">
+          <div class="datos">
+            <h2>Total</h2>
+            <span>/ person</span>
+          </div>
+          <span class="simbolo">$</span><p class="totalMonto">0.00</p>
+        </div>
+        <div class="container__buttonReset">
+          <button class="reset">Reset</button>
+        </div>
+      </section>
+    </main>
+  
+  
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Roggerik</a>.
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

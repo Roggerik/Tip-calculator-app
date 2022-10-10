@@ -1,0 +1,79 @@
+body{
+    width: 100%;
+}
+
+.main__container{
+    width: 635px;
+    height: 360px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.datosCalcular .nombre{
+    padding-top: 30px;
+}
+.montoTotal span{
+    left: 30px;
+}
+
+.input{
+    left: 30px;
+    transform: translateX(-10px);
+}
+
+.tip__buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+}
+
+.button{
+    width: 95px;
+}
+
+.custom{
+    width: 95px;
+    padding-right: 10px;
+}
+
+
+.container__person h2{
+    margin-bottom: 10px;
+}
+
+.total{
+    width:250px;
+    height: 300px;
+    margin:30px auto;
+}
+
+.datos__group .datos{
+    margin: 10px 0px 0px 20px;
+    width: 180px;
+
+}
+
+.datos__group .datos h2{
+    margin-top: 30px;
+    color: white;
+}
+
+.simbolo{
+    margin-top: 30px;
+}
+
+.totalUni,
+.totalMonto{
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.container__buttonReset{
+    width: 250px;
+    margin-top: 40px;
+
+}
+.reset{
+    width: 210px;
+    
+}
